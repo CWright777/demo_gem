@@ -5,7 +5,12 @@ describe SickestGem do
     expect(SickestGem::VERSION).not_to be nil
   end
 
-  it 'does something useful' do
-    expect(false).to eq(true)
+  it 'email should return valid' do
+    output = SickestGem.check_email('meowmix@meow.com')
+    expect(output).to eq(true)
+  end
+  it 'email shoud return invalid' do
+    output = SickestGem.check_email('bademail.emac.com')
+    expect(output).to eq(false)
   end
 end
