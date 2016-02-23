@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["fordwright@gmail.com"]
 
   spec.summary       = "Email Validator"
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.description   = "laksjdfalks"
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 
